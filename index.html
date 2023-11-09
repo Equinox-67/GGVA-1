@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap">
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="mt-5 d-flex w-full main_body">
+      <div class="dashboard">
+        <div class="dash-content text-sel">
+          <div class="dash-content-img"><img src="dashboard.png" /></div>
+          <div class="text">Dashboard</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="Transactions.png" /></div>
+          <div class="text">Transactions</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="Local Transfer.png" /></div>
+          <div class="text">Local Transfer</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="International wire tranfer.png" /></div>
+          <div class="text">International wire Transfer</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="Deposit.png" /></div>
+          <div class="text">Deposit</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="Loan Reqest.png" /></div>
+          <div class="text">Loan Request</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="Loan History.png" /></div>
+          <div class="text">Loan History</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="settings.png" /></div>
+          <div class="text">Settings</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="Support ticket.png" /></div>
+          <div class="text">Support Ticket</div>
+        </div>
+        <div class="dash-content">
+          <div class="dash-content-img"><img src="logout.png" /></div>
+          <div class="text">Logout</div>
+        </div>
+      </div>
+      <div class="details mx-3 p-3 rounded">
+        <div
+          class="btn d-flex justify-content-end align-items-center text-center"
+        >
+          <div
+            class="money_send d-flex flex-row p-3 align-self-center justify-content-center"
+          >
+            <svg
+              class="me-1"
+              width="24"
+              height="24"
+              viewBox="0 0 24 24"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M23.3389 0.21776C23.4427 0.321758 23.5137 0.453971 23.543 0.597976C23.5724 0.74198 23.5588 0.89143 23.5039 1.02776L14.7754 22.8483C14.6985 23.0404 14.57 23.2076 14.4042 23.3315C14.2383 23.4554 14.0416 23.5311 13.8355 23.5503C13.6294 23.5696 13.422 23.5316 13.2361 23.4405C13.0502 23.3494 12.893 23.2089 12.7819 23.0343L8.01488 15.5418L0.522381 10.7748C0.347358 10.6637 0.206408 10.5065 0.115086 10.3205C0.0237631 10.1344 -0.0143824 9.92671 0.00485835 9.72034C0.0240991 9.51397 0.099978 9.31692 0.224122 9.15095C0.348267 8.98497 0.51585 8.85652 0.708381 8.77976L22.5289 0.0542598C22.6652 -0.000621803 22.8147 -0.0142414 22.9587 0.0150929C23.1027 0.0444271 23.2349 0.115422 23.3389 0.21926V0.21776ZM9.51188 15.1038L13.6534 21.6108L20.7529 3.86276L9.51188 15.1038ZM19.6924 2.80226L1.94438 9.90176L8.45288 14.0418L19.6924 2.80226Z"
+                fill="white"
+              />
+            </svg>
+
+            <p>Send Money</p>
+          </div>
+        </div>
+        <div class="d-flex justify-content-start">
+          <div class="username p-2 m-2 rounded d-flex align-self-bottom">
+            <div class="user-greet">Welcome back,</div><span class="user">Sarah Juliet!</span>
+          </div>
+        </div>
+
+        <div class="joint m-4">
+          <div class="balance p-2 z-1">
+            <div class="user-main text-white d-flex justify-content-between">
+              <img src="Ellipse8.png" alt="" class="user-image"/>
+              <div class="d-flex flex-column flex-column align-self-bottom text-center">
+                <div class="bal-text">Available Balance</div>
+                <div class="amount ">$45,000.00</div>
+              </div>
+              <div></div>
+            </div>
+          </div>
+          <div class="account_no z-3 d-flex justify-content-between">
+            <div class="d-flex flex-row">
+              <div class="account-num-logo"><img src="Deposit.png" class="acct-num-logo"/></div>
+              <div class="account-num">
+                <div class="acct-text">Your Account Number</div>
+                <div class="acct-no">87635417924</div>
+              </div>
+            </div>
+
+            <div class="d-flex transact">
+              <div class="m-2 btn side-transactions">
+                <div class="transact1-img"><img src="Transactions.png" /></div>
+                <div class="transact1">Transactions</div>
+              </div>
+              <div class="m-2 btn side-transactions">
+                <div class="transact1-img"><img src="Loan Reqest.png" /></div>
+                <div class="top-up">Top up balance</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="transactions d-flex p-4">
+          <span class="transactions_con">
+            <h5 class="tcon-head">Transaction Limit</h5>
+            <p class="tcon-desc">Your current transaction limit</p>
+            <p class="tcon-amnt">$2,000,000.00</p>
+          </span>
+          <span class="transactions_con">
+            <h5 class="tcon-head">Pending Transaction</h5>
+            <p class="tcon-desc">Total pending transaction currently</p>
+            <p class="tcon-amnt">$0.00</p>
+          </span>
+          <span class="transactions_con">
+            <h5 class="tcon-head">Transaction Volume</h5>
+            <p class="tcon-desc">Total volume of transactions made</p>
+            <p class="tcon-amnt">$0.00</p>
+          </span>
+        </div>
+        <div class="recent_transactions">
+          <div class="rcnt_transaction">Recent Transactions</div>
+          <span class="rcnt_txt" px-1>Amount</span>
+          <span class="rcnt_txt1" px-1>Type</span>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

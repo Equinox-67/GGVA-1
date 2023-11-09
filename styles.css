@@ -1,0 +1,314 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+img {
+    margin: 0.2rem 0.6rem 0rem 0rem;
+    padding: 0rem 0rem 0rem 1rem;
+}
+
+.main_body {
+    width: 90rem;
+    height: 64rem;
+}
+
+.dashboard {
+    border-top-right-radius: 1rem;
+    background: #9EB2D3;
+    width: 17.8125rem;
+    height: 58.9375rem;
+    flex-shrink: 0;
+    padding: 2rem 2rem 0rem 1rem;
+    margin-right: 3rem;
+}
+
+.dash-content {
+    margin: 0.9rem 0.5rem;
+    display: flex;
+    color: white;
+}
+
+.dash-content-img {
+    padding-left: 1rem;
+}
+
+.text {
+    margin: 0rem 0rem 0rem;
+    padding: 0.5rem;
+    font-size: 0.95rem;
+}
+
+.text-sel {
+    width: 208px;
+    height: 48px;
+    flex-shrink: 0;
+    background: #022B94;
+    align-items: center;
+    border: 1px solid #022B94;
+}
+
+.details {
+    width: 69.5625rem;
+    height: 58.9375rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: rgba(244, 244, 244, 0.96);
+}
+
+.money_send {
+    color: rgba(255, 255, 255, 0.70);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+    width: 14.6875rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 0.9375rem;
+    background: #022B94;
+}
+
+.me-1 {
+    width: 1.47238rem;
+    height: 1.47219rem;
+    flex-shrink: 0;
+    fill: #FFF;
+}
+
+.user-greet {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: -0.09rem;
+}
+
+.user {
+    color: rgba(0, 0, 0, 0.80);
+    padding-left: 0.3rem;
+    font-family: Montserrat;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.09rem;
+
+}
+
+.balance {
+    width: 64.625rem;
+    height: 16rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #022B94;
+}
+
+.user-image {
+    width: 6.375rem;
+    height: 6.375rem;
+    padding-top: 1rem;
+    flex-shrink: 0;
+    border-radius: 6.375rem;
+}
+
+.bal-text {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: -0.1125rem;
+    margin-left: -10rem;
+    padding-top: 4rem;
+}
+
+.amount {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 0.18rem;
+    margin-left: -10rem;
+}
+
+.account_no {
+    width: 61.1875rem;
+    height: 8.5rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #FFF;
+    margin: -4rem 1.7rem 0rem;
+}
+
+.account-num-logo {
+    width: 2.625rem;
+    height: 2.625rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: #D9D9D9;
+    margin: 2.5rem 1rem auto 2rem;
+}
+
+.acct-num-logo {
+    margin: 0.7rem 0rem 0rem -0.31rem;
+}
+
+.account-num {
+    margin: auto 0rem;
+}
+
+.acct-text {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 134.4%; /* 1.68rem */
+    letter-spacing: -0.075rem;
+    margin-bottom: 0.5rem;
+}
+
+.acct-no {
+    color: rgba(0, 0, 0, 0.60);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 134.4%;
+    letter-spacing: -0.075rem;
+}
+
+.transact {
+    margin: auto 1rem auto 0rem;
+}
+
+.side-transactions {
+    display: flex;
+    width: 11.75rem;
+    height: 3.125rem;
+    flex-shrink: 0;
+    border-radius: 0.3125rem;
+    background: #022B94;
+}
+
+.transact1-img {
+    width: 1.25rem;
+    height: 1.125rem;
+    flex-shrink: 0;
+    margin: 0.3rem 1.5rem auto -1.2rem;
+}
+
+.transact1 {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+    margin: 0.3rem 1.5rem auto 0rem;
+}
+
+.top-up {
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+    margin: 0.3rem 0rem auto 0.05rem;
+}
+
+.transactions_con {
+    width: 20.5625rem;
+    height: 8.5rem;
+    flex-shrink: 0;
+    border-radius: 0.625rem;
+    background: #FFF;
+    margin-right: 1.5rem;
+    padding: 1rem 0rem 0rem 1rem;
+}
+
+.tcon-head {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+}
+
+.tcon-desc {
+    color: rgba(0, 0, 0, 0.40);
+    font-family: Montserrat;
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -0.0525rem;
+}
+
+.tcon-amnt {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140.9%; /* 1.76125rem */
+    letter-spacing: -0.075rem;
+}
+
+.recent_transactions {
+    width: 65.1875rem;
+    height: 13.875rem;
+    flex-shrink: 0;
+    border-radius: 1.25rem;
+    background: #FFF;
+}
+
+.rcnt_transaction {
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+    padding: 2rem 1rem 1rem;
+}
+
+.rcnt_txt {
+    margin-top: 0rem;
+    margin-left: 2rem;
+    color: rgba(0, 0, 0, 0.80);
+    font-family: Montserrat;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+}
+
+.rcnt_txt1 {
+    margin-top: 0rem;
+    margin-left: 15rem;
+    font-size: 1.25rem;
+    font-weight: 600;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: -0.075rem;
+}
